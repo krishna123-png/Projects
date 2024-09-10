@@ -1,0 +1,160 @@
+@font-face {
+    font-family: young-serif;
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    font-weight:400;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: outfit-regular;
+    src: url('assets/fonts/outfit/static/Outfit-Regular.ttf');
+    font-weight:400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: outfit-semibold;
+    src: url('assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: outfit-bold;
+    src: url('assets/fonts/outfit/static/Outfit-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1440px) {
+    body {
+        font-family: young-serif, outfit-regular, outfit-semibold, outfit-bold;
+        font-size: 16px;
+        width: 100vw;
+        top: 0;
+    }
+
+    header img {
+        top: 0;
+        width: 100vw;
+    }
+}
+@media screen and (min-width: 1441px) {
+    body {
+        font-family: young-serif, outfit-regular, outfit-semibold, outfit-bold;
+        font-size: 16px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    header img {
+        width: 100%;
+    }
+}
+
+#preperation-time {
+    background-color: hsl(330, 100%, 98%);
+}
+
+#preperation-time > h3 {
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#preperation-time > ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+#preperation-time > ul > li {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#preperation-time li > span {
+    font-weight: bold;
+}
+
+#ingredients {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+#ingredients > h2 {
+    color: hsl(14, 45%, 36%);
+    padding-top: 20px;
+}
+
+#ingredients > ul {
+    padding-left: 20px;
+}
+
+#ingredients > ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+#ingredients > ul > li {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#instructions {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+#instructions > h2 {
+    color: hsl(14, 45%, 36%);
+    padding-top: 20px;
+}
+
+#instructions > ol {
+    padding-left: 20px;
+}
+
+#instructions > ol li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+#instructions > ol > li {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#instructions li > span {
+    font-weight: bold;
+}
+
+#nutrition > h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+#nutrition > table {
+    width: 100%;
+}
+
+#nutrition th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#nutrition td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    vertical-align: middle;
+    color:hsl(14, 45%, 36%);
+}
+
+#nutrition > table > tbody > tr:nth-child(1) >th,
+#nutrition > table > tbody > tr:nth-child(1) >td,
+#nutrition > table > tbody > tr:nth-child(2) >th,
+#nutrition > table > tbody > tr:nth-child(2) >td,
+#nutrition > table > tbody > tr:nth-child(3) >th,
+#nutrition > table > tbody > tr:nth-child(3) >td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
