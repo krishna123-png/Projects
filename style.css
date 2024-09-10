@@ -55,7 +55,26 @@
         margin-left: 20px;
         margin-right: 20px;
     }
-    
+
+    #preperation-time {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #ingredients {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #instructions {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #nutrition {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 @media screen and (min-width: 1441px) {
     body {
