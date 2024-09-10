@@ -33,10 +33,29 @@
         width: 100vw;
     }
 
+    header {
+        width: 100%;
+    }
+
+    header > div {
+        width: 100%;
+    }
+
     header img {
         top: 0;
         max-width: 100%;
     }
+
+    header > div > h1 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    header > p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
 }
 @media screen and (min-width: 1441px) {
     body {
@@ -48,7 +67,7 @@
         margin-bottom: 50px;
         color: hsl(30, 10%, 34%);
     }
-
+    
     header img {
         width: 100%;
     }
