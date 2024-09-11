@@ -42,7 +42,7 @@
     }
 
     header img {
-        border-radius: 10px;
+        border-radius: 20px;
         top: 0;
         max-width: 100%;
     }
@@ -63,19 +63,40 @@
     }
 }
 @media screen and (min-width: 1441px) {
+
+    html {
+        background-color: hsl(330, 100%, 98%);
+    }
+    
     body {
         font-family: young-serif, outfit-regular, outfit-semibold, outfit-bold;
         font-size: 16px;
         margin-left: 25%;
         margin-right: 25%;
-        margin-top: 10%
-        margin-bottom: 10%;
+        margin-top: 20%
+        margin-bottom: 20%;
         color: hsl(30, 10%, 34%);
+        background-color: white;
+    }
+
+    header {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+
+    header > div {
+        width: 100%;
     }
     
     header img {
-        border-radius: 10px;
+        border-radius: 20px;
         width: 100%;
+    }
+
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
