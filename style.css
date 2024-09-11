@@ -85,11 +85,11 @@
     }
 
     header > div {
-        margin-top: 5%;
         width: 100%;
     }
     
     header img {
+        margin-top: 5%;
         border-radius: 20px;
         width: 100%;
     }
