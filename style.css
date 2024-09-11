@@ -42,6 +42,7 @@
     }
 
     header img {
+        border-radius: 10px;
         top: 0;
         max-width: 100%;
     }
@@ -65,14 +66,15 @@
     body {
         font-family: young-serif, outfit-regular, outfit-semibold, outfit-bold;
         font-size: 16px;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 10%
+        margin-bottom: 10%;
         color: hsl(30, 10%, 34%);
     }
     
     header img {
+        border-radius: 10px;
         width: 100%;
     }
 }
