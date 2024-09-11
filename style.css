@@ -74,8 +74,10 @@
         margin-left: 25%
         margin-right: 25%;
         margin-top: 10%;
+        margin-bottom: 10%;
         color: hsl(30, 10%, 34%);
         background-color: white;
+        border-radius: 25px;
     }
 
     header {
