@@ -71,17 +71,14 @@
     body {
         font-family: young-serif, outfit-regular, outfit-semibold, outfit-bold;
         font-size: 16px;
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-top: 0;
         color: hsl(30, 10%, 34%);
-        background-color: white;
+        background-color: hsl(30, 54%, 90%);
     }
 
     header {
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-top: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-top: 20%;
     }
 
     header > div {
@@ -94,8 +91,8 @@
     }
 
     main {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }
 
