@@ -23,7 +23,7 @@ body {
     width: 100%;
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1081px) {
     .container1 {
         display: flex;
         justify-content: center;
@@ -37,27 +37,6 @@ body {
         flex-direction: column;
         margin-left: 40%;
         margin-right: 40%;
-        margin-top: 7.5%;
-        margin-bottom: 7.5%;
-        align-items: center;
-    }
-    
-}
-
-@media screen and (min-width: 1081px) and (max-width: 1440px) {
-    .container1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .idCard {
-        align-self: center;
-        background-color: #1F1F1F;
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 5%;
-        margin-right: 5%;
         margin-top: 7.5%;
         margin-bottom: 7.5%;
         align-items: center;
@@ -76,8 +55,8 @@ body {
         border-radius: 12px;
         display: flex;
         flex-direction: column;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-top: 7.5%;
         margin-bottom: 7.5%;
         align-items: center;
