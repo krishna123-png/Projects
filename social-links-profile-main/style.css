@@ -19,7 +19,11 @@ body {
     height: 100vh;
 }
 
-@media screen and (min-width: 1440px) {
+.idCard {
+    width: 100%;
+}
+
+@media screen and (min-width: 1441px) {
     .container1 {
         display: flex;
         justify-content: center;
@@ -40,7 +44,7 @@ body {
     
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
     .container1 {
         display: flex;
         justify-content: center;
@@ -60,7 +64,7 @@ body {
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .container1 {
         display: flex;
         justify-content: center;
@@ -116,6 +120,7 @@ body {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    text-align: center;
     margin-bottom: 24px;
 }
 
